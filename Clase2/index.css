@@ -1,16 +1,35 @@
+/* Universal */
+* {
+  font-size: 25px;
+}
+
+/* Elemento */
+div {
+  border-radius: 10px;
+  background-color: #333534;
+}
+
+/* Clase */
 .contenedor {
     display: flex;
     flex-wrap: wrap;
     width: auto;
-  }
-  
-  .item {
-    flex: 1 1 30%;
-    padding: 10px;
-    margin: 10px;
-    height: 200px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    background-color: #d0ecdc;
-  }
+    font-family: 'Times New Roman', serif !important;
+}
+
+/* Esto es un comentario */  
+#text {
+  color: blue;
+}
+
+.item {
+  color: rgb(216, 12, 12);
+  flex: 1 1 30%;
+  padding: 10px;
+  margin: 10px;
+  height: 200px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #d0ecdc;
+}
   
